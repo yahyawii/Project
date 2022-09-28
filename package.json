@@ -1,11 +1,15 @@
 {
   "name": "pfe",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.15.0"
+    },
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"npx nodemon server\" \"cd client && npm start\""
+    "dev": "concurrently \"npx nodemon server\" \"cd client && npm start\"",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
