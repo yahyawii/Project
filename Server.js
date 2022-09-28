@@ -26,4 +26,4 @@ app.get('*', (req,res)=>{
 })
 
 
-app.listen(process.env.port || 8080,console.log(`Server is running on the port ${process.env.port}`))
+app.listen(process.env.PORT || 8080,console.log(`Server is running on the port ${process.env.PORT}`))
