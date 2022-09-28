@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npx nodemon server\" \"cd client && npm start\"",
-    "start": "node index.js"
+    "start": "node Server.js"
   },
   "keywords": [],
   "author": "",
